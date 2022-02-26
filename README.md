@@ -27,6 +27,7 @@ For Building and running the application belows are required:
 
 ## Images
 Photos of Frontend are below.
+
 <img src="https://user-images.githubusercontent.com/77413677/155842313-aa97ee67-65b2-4b85-b0ca-9d318ed259ee.png" width="18%"></img>
 <img src="https://user-images.githubusercontent.com/77413677/155842371-5e5e49d4-aecd-478d-8f94-e7f2696d6cde.png" width="18%"></img>
 <img src="https://user-images.githubusercontent.com/77413677/155842387-8a2f15ea-ffaa-42c7-9a9e-32061f3302dc.png" width="18%"></img>
