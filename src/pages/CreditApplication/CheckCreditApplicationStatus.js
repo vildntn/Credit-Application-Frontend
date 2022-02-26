@@ -67,7 +67,7 @@ function CheckCreditApplicationStatus() {
                 }}
               >
                 <Button  style={{backgroundColor:"#0032a1",padding:"10px 25px"}} type="submit" onClick={()=>setIsShowing(true)}>
-                  Submit
+                  Click To View
                 </Button>
               </div>
             </Form>
