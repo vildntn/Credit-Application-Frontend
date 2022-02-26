@@ -1,4 +1,44 @@
-# Getting Started with Create React App
+
+# Credit Application Frontend
+* A credit application is received by obtaining name, surname, national Id number, phone number and monthly income information from the customer. As a result of the information received, the application approval information and the credit limit given are displayed according to the requirements. The result is also shown to the customer using toastify. 
+* In addition, the customer can view the application made by entering the national Id number. 
+* Made using the React library and formik is used for forms.
+
+### Functional Requirements
+* National Id number, name, surname, monthly income and phone number informations are taken with the form and the customer is shown the credit result and credit limit.
+### Functional Requirements Of Backend
+* New customers can be created in the system, existing customers can be updated or deleted.
+* If the credit score is below 500, the customer will be rejected. (Credit result: Rejected)
+* If the credit score is between 500 points and 1000 points and the monthly income is below 5000 TL, the credit application of the customer is approved and a limit of 10.000 TL is assigned to the customer. (Credit Result: Aproved)
+* If the credit score is between 500 points and 1000 points and the monthly income is above 5000 TL, the credit application of the customer is approved and a 20.000 TL limit is assigned to the customer. (Credit Result: Approved)
+* If the credit score is equal to or above 1000 points, the customer is assigned a limit equal to MONTHLY INCOME * CREDIT LIMIT MULTIPLIER.The credit limit multiplier is 4 by default. (Credit Result: Approved)
+* As a result of the conclusion of the credit, the relevant application is recorded in the database. Afterwards, an informative SMS is sent to the relevant phone number and the approval status information (rejection or approval), limit information is returned from the endpoint.
+* A completed loan application can only be queried with an national ID number.
+
+### Requirements
+For Building and running the application belows are required:
+
+* React
+* Axios
+* Formik
+* React Toastify
+* React Bootstrap
+* Yup
+
+## Images
+Photos of Frontend are below.
+<img src="https://user-images.githubusercontent.com/77413677/155842313-aa97ee67-65b2-4b85-b0ca-9d318ed259ee.png" width="18%"></img>
+<img src="https://user-images.githubusercontent.com/77413677/155842371-5e5e49d4-aecd-478d-8f94-e7f2696d6cde.png" width="18%"></img>
+<img src="https://user-images.githubusercontent.com/77413677/155842387-8a2f15ea-ffaa-42c7-9a9e-32061f3302dc.png" width="18%"></img>
+<img src="https://user-images.githubusercontent.com/77413677/155842420-f51931df-1ea8-4ef5-bdae-0b1a8949283b.png" width="18%"></img>
+<img src="https://user-images.githubusercontent.com/77413677/155842432-09c77080-b4af-4324-a005-37f0d77d985e.png" width="18%"></img>
+
+
+## Backend
+* Here is the link to the Frontend project.
+[Credit-Application-System](https://github.com/vildntn/Credit-Application-System)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
