@@ -28,13 +28,13 @@ For Building and running the application belows are required:
 ## Images
 Photos of Frontend are below.
 
-<img src="https://user-images.githubusercontent.com/77413677/155842313-aa97ee67-65b2-4b85-b0ca-9d318ed259ee.png" width="18%"></img>
-<img src="https://user-images.githubusercontent.com/77413677/155843375-78e092cd-4eb7-4d9f-982c-6b1202426a15.png" width="18%"></img>
-<img src="https://user-images.githubusercontent.com/77413677/155842387-8a2f15ea-ffaa-42c7-9a9e-32061f3302dc.png" width="18%"></img>
-<img src="https://user-images.githubusercontent.com/77413677/155842420-f51931df-1ea8-4ef5-bdae-0b1a8949283b.png" width="18%"></img>
-<img src="https://user-images.githubusercontent.com/77413677/155843398-360bfe9a-9b15-4e9f-9f44-aeef68523f0c.png" width="18%"></img>
-<img src="https://user-images.githubusercontent.com/77413677/155843426-f9ab0ea9-2877-49ec-b70a-948e57460493.png" width="18%"></img>
-<img src="https://user-images.githubusercontent.com/77413677/155843455-26a10752-ac05-48fa-8b77-4e6cc3ee7a94.png" width="18%"></img>
+<img src="https://user-images.githubusercontent.com/77413677/155842313-aa97ee67-65b2-4b85-b0ca-9d318ed259ee.png" width="28%"></img>
+<img src="https://user-images.githubusercontent.com/77413677/155843375-78e092cd-4eb7-4d9f-982c-6b1202426a15.png" width="28%"></img>
+<img src="https://user-images.githubusercontent.com/77413677/155842387-8a2f15ea-ffaa-42c7-9a9e-32061f3302dc.png" width="28%"></img>
+<img src="https://user-images.githubusercontent.com/77413677/155842420-f51931df-1ea8-4ef5-bdae-0b1a8949283b.png" width="28%"></img>
+<img src="https://user-images.githubusercontent.com/77413677/155843398-360bfe9a-9b15-4e9f-9f44-aeef68523f0c.png" width="28%"></img>
+<img src="https://user-images.githubusercontent.com/77413677/155843426-f9ab0ea9-2877-49ec-b70a-948e57460493.png" width="28%"></img>
+<img src="https://user-images.githubusercontent.com/77413677/155843455-26a10752-ac05-48fa-8b77-4e6cc3ee7a94.png" width="28%"></img>
 
 ## Backend
 * Here is the link to the Frontend project.
