@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 function AddCreditApplication() {
   const [isShowing, setIsShowing] = useState(false);
-  const [isRedirect, setIsRedirect] = useState(false)
+  const [errorMessage, setErrorMessage] = useState('');
   const [creditApplications, setCreditApplications] = useState([]);
   let creditApplicationService = new CreditApplicationService();
 
@@ -24,8 +24,6 @@ function AddCreditApplication() {
   //   }
   // }
 
-  console.log(isShowing);
-  console.log(creditApplications);
   const formik = useFormik({
     initialValues: {
       firstName: "",
@@ -57,8 +55,14 @@ function AddCreditApplication() {
             ? toast.success(result.data.creditStatus) 
             : toast.error(result.data.creditStatus);
           setCreditApplications([result.data]);
-        });
-      console.log(creditApplication);
+        })
+        .catch((error)=>{
+         setIsShowing(false)
+          setErrorMessage("You have already applied for a credit!")
+          toast.error("You have already applied for a credit!")
+        })
+       
+ 
     },
   });
 
