@@ -1,6 +1,7 @@
 
 # Credit Application Frontend
 * A credit application is received by obtaining name, surname, national Id number, phone number and monthly income information from the customer. As a result of the information received, the application approval information and the credit limit given are displayed according to the requirements. The result is also shown to the customer using toastify. 
+* If the customer has made an application before, cannot apply again and sees a message that you have already applied.
 * In addition, the customer can view the application made by entering the national Id number. 
 * Made using the React library and formik is used for forms.
 
@@ -35,6 +36,7 @@ Photos of Frontend are below.
 <img src="https://user-images.githubusercontent.com/77413677/155843398-360bfe9a-9b15-4e9f-9f44-aeef68523f0c.png" width="28%"></img>
 <img src="https://user-images.githubusercontent.com/77413677/155843426-f9ab0ea9-2877-49ec-b70a-948e57460493.png" width="28%"></img>
 <img src="https://user-images.githubusercontent.com/77413677/155843455-26a10752-ac05-48fa-8b77-4e6cc3ee7a94.png" width="28%"></img>
+<img src="https://user-images.githubusercontent.com/77413677/155891058-d238d19a-d0fd-48a9-a8f7-690606a5d09e.png" width="28%"></img>
 
 ## Credit Application Backend Project
 It is a restful credit application system that receives credit application requests and returns the credit result to the customer according to the relevant criteria. It is written using the Spring Boot framework.
