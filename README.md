@@ -50,17 +50,7 @@ Photos of Frontend are below.
 <img src="https://user-images.githubusercontent.com/77413677/155843455-26a10752-ac05-48fa-8b77-4e6cc3ee7a94.png" width="28%"></img>
 <img src="https://user-images.githubusercontent.com/77413677/155891058-d238d19a-d0fd-48a9-a8f7-690606a5d09e.png" width="28%"></img>
 
-## Credit Application Backend Project
-It is a restful credit application system that receives credit application requests and returns the credit result to the customer according to the relevant criteria. It is written using the Spring Boot framework.
-* Here is the link to the backend project.
-[Credit-Application-System](https://github.com/vildntn/Credit-Application-System)
 
-## Helper Project with RabbitMQ
-After applying for a credit to the customer, the simulation of sending an sms was made with a microservice architecture.
-Communication between the two architectures takes place with RabbitMQ.
-
-* Here is the link to the Helper project.
-[Credit-Application-Helper](https://github.com/vildntn/Credit-Application-Helper)
 
 ## Getting Started with Create React App
 
